@@ -1,4 +1,4 @@
-#ANCORA WORKING PROGRESS, dovrei finirlo questa sera spero
+# ANCORA WORKING PROGRESS, dovrei finirlo questa sera spero
 # 4BSA-computerscience-classes
 
 Questo deposito su github servirà per i diversi argomenti che stiamo facendo ad informatica, e per chi non ha preso appunti potrebbe servire. 
