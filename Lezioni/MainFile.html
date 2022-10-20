@@ -1,0 +1,126 @@
+<html>
+    <head>
+        <title>La mia prima pagina html</title>
+    </head>
+    <body bgcolor = "#FF8141">
+
+        <!-- Lo sfondo della nostra pagina va scritto nel "body". -->
+        <!--bgcolor è un attributo. "bg" sta per background-->
+        
+        <!--#FF8141 è un codice esadecimale-->
+
+        <center><h1>Corso di HTML</h1>
+        <h2>1 Ottobre 2022</h2></center>
+        <h3>Il mio primo file HTML</h3>
+        <h4>Testo per titoli e sottotitoli di formato 4</h4>
+        <h5>Testo per titoli e sottotitoli di formato 5</h5>
+        <h6>Testo per titoli e sottotitoli di formato 6</h6>
+        <!-- i tag h1..h6 sono comandi per titoli e sottotitoli -->
+        
+        <hr> <!--visualizza una linea orizziontale-->
+
+        <center><h2> 8 Ottobre 2022</h2></center>
+        <h3>Formattazione del testo</h3>
+
+        <p>Il tag p impone un salto del paragrafo quado serve</p>
+        <p><b>Ciao</b>a tutti, oggi spiegheremo come <u>formattare il testo</u></p>
+        <p>Ciao a tutti oggi spiegheremo come <i>formattare il test</i></p>
+        <!--Quest comando (<b></b>) permette di mettere in grasseto il testo-->
+        <!--Quest comando (<u></u>) permette di sottolineare una certa parta della frase-->
+        <!--Quest comando (<i></i>) permette di mettere in corsivo il testo-->
+
+        <p><b><u><i>Ciao a tutti oggi spiegheremo come formattare il testo</i></u></b></p>
+        <!--Scrivendo questo comando "<b><u><i>...</i></u></b>" è possibile mettere in testo in grassetto corsivo e sottolineato-->
+
+        <h3>Il <b>tag font</b> e le sue caratteristiche</h3>
+        <p><font color="blue">Ciao </font> <font size="4">a tutti</font></p>    
+
+        <!--il seguente comando (<font color="...") permette di cambiare colore al testo-->
+        <!--Il seguente comendo (<font size="numero">) permette di cambiare la grandezza de testo-->
+    
+        <p><font face="Verdana">Ciao a tutti</font></p>
+        <!--il comando "<font face="...">" permette di cambiare il carattere del testo-->
+    
+        <!--Riassumendo il font ha tre attributi: color, size e face-->
+
+        <p align="justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+       
+        <p align="right">Grazie per l'attenzione</p>
+        <!--L'attributo align pùò assumer quattro stati: left, right, center e justify-->
+        
+        <hr>
+
+        <center><h2>15 Ottobre 2022</h2></center>
+        <h3>Caratteri a pedice e ad apice</h3>
+
+        <p> La formula chimica dell'acqua &egrave; H<sub>2</sub>0</p>
+        <!--Il comando "&egrave;" serve per mettere la e accentata-->
+        <!--Il comando "<sub></sub>" serve per mettere a pedice -->
+
+        <p>L'equazione di secondo grado in forma canonica si scrive:<br>
+        <b><font color="red">a</font></b>x<sup>2</sup>+<b><font color="red">b</font></b>y+<b><font color="red">c</font></b></p>
+        <!--Il comando "<br>" serve per andare a capo-->
+        <!--Il comando "<sup></sup>" serve per mettere ad apice -->
+
+        <hr>
+
+        <h3>Liste ordinate e non</h3>
+        <ol>
+            <li>Punto in elenco 1</li>
+            <li>Punto in elenco 2</li>
+            <li>Punto in elenco 3</li>
+        </ol>
+
+        <ul>
+            <li>Primo punto elenco</li>
+            <li>Secondo punto elenco</li>
+            <li>Terzo punto elenco</li>
+        </ul>
+        <!--Tramite il comando "<ul></ul>" creiamo delle liste non ordinate (unorder list)-->
+        <!--Tramite il comando "<ol></ol>" creiamo delle liste ordinate (order list)-->
+        <!--Il comando <li></li> indica una list item-->
+
+        <p>Se vogliamo sostituire il simbolo dell'elenco, dobbiamo utilizzare l'attributo "<b>type=circle|square</b>" all'interno del tag ul</p>
+
+        <ul type=circle>
+            <li>Primo punto elenco</li>
+            <li>Secondo punto elenco</li>
+        </ul>
+
+        <ul type=square>
+            <li>Primo punto elenco</li>
+            <li>Secondo punto elenco</li>
+        </ul>
+
+        <p>Nelle liste ordinate è possibile sostituire i numeri con le lettere con il comando "<b>type="A"</b>" all'interno del tag ol</p>
+        <ol type="A">
+            <li>Punto in elenco 1</li>
+            <li>Punto in elenco 2</li>
+            <li>Punto in elenco 3</li>
+        </ol>
+
+        <p>Esistono anche le liste <b>annidate</b>, riportiamo un esempio:</p>
+        <ol>
+            <li>A</li>
+                <ul>
+                    <li>aa</li>
+                    <li>bb</li>     <!--La lista ordinata (principale) ha al suo interno una lista annidata-->
+                    <li>cc</li>
+                </ul>
+            <li>B</li>
+            <ul>
+                <li>bb</li>
+                <li>cc</li>
+                <li>dd</li>
+            </ul>
+            <li>C</li>
+        </ol>
+        
+
+    </body>
+
+</html>
+
