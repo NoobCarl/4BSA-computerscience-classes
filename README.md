@@ -3,7 +3,7 @@
 
 Questo deposito su github servirà per i diversi argomenti che stiamo facendo ad informatica, e per chi non ha preso appunti potrebbe servire. 
 Ringrazio Petrini per il file html che io non ho fatto.
-Dentro la cartella lezioni puoi trovare tutte le cartelle con i singoli argomenti, oppure se vuoi il file per intero con tutte le cose fatte basta avere il file "mainfile.html"
+Dentro la cartella lezioni puoi trovare tutte le cartelle con i singoli argomenti, oppure se vuoi il file per intero con tutte le cose fatte basta avere il file "mainfile.html" che si trova nella cartella lezioni
 
 ---
 
